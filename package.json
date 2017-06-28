@@ -1,7 +1,12 @@
 {
-  "name": "fractal",
-  "version": "0.1.0",
-  "dependencies": {
-    "@frctl/fractal": "^1.1.4"
+  "name": "foocorp-component-library",
+  "version": "1.0.0",
+  "description": "FooCorp Component Library.",
+  "devDependencies": {
+    "@frctl/fractal": "^1.0"
+  },
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build"
   }
 }
